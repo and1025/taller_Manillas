@@ -4,12 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity" >
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="@string/titulo" />
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="@string/titulo"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/cantidad"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/comboMaterial"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <Spinner
+        android:id="@+id/comboDije"
+        android:layout_width="match_parent"
+        android:layout_height="52dp" />
+
+    <Spinner
+        android:id="@+id/comboMaterialDije"
+        android:layout_width="match_parent"
+        android:layout_height="62dp" />
+
+    <Button
+        android:id="@+id/calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="calcular"
+        android:text="@string/btn_calcular" />
+
 </LinearLayout>

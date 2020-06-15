@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Manillas</string>
+    <string name="titulo">"Handles "</string>
+    <string name="material">"Handle material "</string>
+    <string name="dije">"I said of the handle "</string>
+    <string name="tipo">Handle type</string>
+    <string name="cantidad">Quantity</string>
+    <string name="dolar">USD</string>
+    <string name="pesos">Pesos</string>
+    <string name="total">Total</string>
+    <string name="btn_calcular">Calculate</string>
+    <string name="cuero">Cuero</string>
+    <string name="cuerda">Cuerda</string>
+    <string name="oro">Oro</string>
+    <string name="oro_rosado">Oro Rosado</string>
+    <string name="plata">Plata</string>
+    <string name="niquel">Niquel</string>
+    <string name="martillo">Martillo</string>
+    <string name="ancla">Ancla</string>
 </resources>
