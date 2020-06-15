@@ -16,6 +16,8 @@
     <string name="niquel">Niquel</string>
     <string name="martillo">Martillo</string>
     <string name="ancla">Ancla</string>
+    <string name="error_cero">Digita un número mayor a cero</string>
+    <string name="error_vacio">Dígita un número</string>
     <string-array name="tipo_material">
         <item>@string/cuero</item>
         <item>@string/cuerda</item>
@@ -23,6 +25,10 @@
     <string-array name="tipo_dije">
         <item>@string/martillo</item>
         <item>@string/ancla</item>
+    </string-array>
+    <string-array name="tipo_moneda">
+        <item>@string/dolar</item>
+        <item>@string/pesos</item>
     </string-array>
     <string-array name="material_dije">
         <item>@string/oro</item>

@@ -39,11 +39,22 @@
         android:layout_width="match_parent"
         android:layout_height="62dp" />
 
+    <Spinner
+        android:id="@+id/comboTipoMoneda"
+        android:layout_width="match_parent"
+        android:layout_height="52dp" />
+
     <Button
         android:id="@+id/calcular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="calcular"
         android:text="@string/btn_calcular" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:textSize="23sp" />
 
 </LinearLayout>

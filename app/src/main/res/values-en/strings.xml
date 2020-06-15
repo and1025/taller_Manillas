@@ -10,12 +10,14 @@
     <string name="pesos">Pesos</string>
     <string name="total">Total</string>
     <string name="btn_calcular">Calculate</string>
-    <string name="cuero">Cuero</string>
-    <string name="cuerda">Cuerda</string>
-    <string name="oro">Oro</string>
-    <string name="oro_rosado">Oro Rosado</string>
-    <string name="plata">Plata</string>
-    <string name="niquel">Niquel</string>
-    <string name="martillo">Martillo</string>
-    <string name="ancla">Ancla</string>
+    <string name="cuero">Leather</string>
+    <string name="cuerda">Rope</string>
+    <string name="oro">Gold</string>
+    <string name="oro_rosado">Pik Gold</string>
+    <string name="plata">Silver</string>
+    <string name="niquel">Nickel</string>
+    <string name="martillo">Hammer</string>
+    <string name="ancla">Anchor</string>
+    <string name="error_cero">Type a number greater than zero</string>
+    <string name="error_vacio">Type a number</string>
 </resources>
